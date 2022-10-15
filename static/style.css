@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(90deg, rgba(78,9,110,1) 0%, rgba(3,3,85,1) 46%, rgba(0,66,20,1) 100%);
+    /* background-image: url("./assets/technology-background-1632715.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.nav{
+    background-color: teal;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.routes{
+    float: left;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.content h1{
+    text-align: center;
+    font-weight: 700;
+    padding: 40px 0px 10px 0px;
+    font-size: 48px;
+    background: -webkit-linear-gradient(45deg, rgb(198, 116, 236) 30%, rgb(90, 187, 216) 40%, rgb(127, 238, 160) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content h2{
+    color:aqua;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 0px 10px 0px;
+    font-size: 36px;
+}

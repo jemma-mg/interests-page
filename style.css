@@ -46,3 +46,11 @@ body{
     padding: 10px 0px 10px 0px;
     font-size: 36px;
 }
+
+.content h6{
+    color:aqua;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 0px 10px 0px;
+    font-size: 32px;
+}

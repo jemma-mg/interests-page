@@ -15,9 +15,20 @@ body{
 } 
 
 .nav{
-    background-color: teal;
     justify-content: space-evenly;
+    background-color: teal;
+    align-items: center;
     overflow: hidden;
+}
+
+
+.nav1{
+    display:inline-flex;
+    padding: 10px 20px;
+    border-bottom-right-radius: 20px;
+    background-color: teal;
+    align-items: center;
+    box-shadow: 10px 10px 2px 1px rgba(0, 255, 221, 0.2);
 }
 
 .routes{
@@ -69,4 +80,28 @@ h3{
     font-weight: 500;
 }
 
+.about_heading{
+    color:white;
+    font-weight: 450;
+}
 
+.home_icon{
+    scale: 1.5;
+    background: -webkit-linear-gradient(45deg, rgb(166, 248, 155) 30%, rgb(111, 240, 197) 40%,   rgb(126, 220, 243) 50%, rgb(195, 161, 235) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills img{
+    border: 2px solid turquoise;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 1rem;
+}

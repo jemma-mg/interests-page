@@ -22,8 +22,8 @@ body{
 }
 
 .about{
-    border-bottom: 30px double cyan;
-    height: 75vh;
+    border-bottom: 20px double cyan;
+    height: 70vh;
     background-image: url("./assets/images.jpg");
     background-size: cover;
 }
@@ -80,12 +80,6 @@ body{
     font-size: 25px;
 }
 
-h3{
-    color: teal;
-    padding: 0px 20px 50px 20px;
-    font-weight: 500;
-}
-
 .about_heading{
     color:white;
     font-weight: 450;
@@ -93,7 +87,7 @@ h3{
 
 .home_icon{
     scale: 1.5;
-    background: -webkit-linear-gradient(45deg, rgb(166, 248, 155) 30%, rgb(111, 240, 197) 40%,   rgb(126, 220, 243) 50%, rgb(195, 161, 235) 80%);
+    background: -webkit-linear-gradient(135deg, rgb(127, 238, 160) 20%, rgb(111, 240, 197) 40%,   rgb(126, 220, 243) 50%, rgb(195, 161, 235) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -109,6 +103,7 @@ h3{
 
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, rgba(198, 116, 236,0.8) 20%, rgba(90, 187, 216,0.8) 60%, rgba(127, 238, 160,0.8) 100%);
     max-width: 300px;
     max-height: 300px;
     margin: auto;
@@ -127,4 +122,6 @@ h3{
 
 .card h3{
     padding: 1.5rem 1rem;
+    color: darkblue;
+    font-weight: 500;
 }

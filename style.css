@@ -7,7 +7,7 @@
 
 body{
     overflow: hidden;
-    background-image: url("./assets/background.webp");
+    background-image: url(./assets/background.webp);
     background-size: cover;
 }
 
@@ -17,6 +17,7 @@ body{
 } 
 
 .nav{
+    position: sticky;
     justify-content: space-evenly;
     background-color: teal;
     align-items: center;
@@ -52,6 +53,7 @@ body{
 }
 
 .content{
+    height: 55vh;
     background: linear-gradient(90deg, rgba(78,9,110,1) 0%, rgba(3,3,85,1) 46%, rgba(0,66,20,1) 100%);
     padding-bottom: 50px;
 }
@@ -147,7 +149,7 @@ span{
         opacity: 0;
     }
     10%{
-        opacity: 0.25;
+        opacity: 0.1;
     }
     90%{
         opacity: 1;

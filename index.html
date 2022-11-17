@@ -15,27 +15,29 @@
             <a href="/about.html" class="routes"><li>About</li></a>
         </ul>
     </div>
+
+    <section>
     <div class="content">
-        <section>
         <h1>Hi There!</h1>
         <h2>I'm Jemma Mariya George</h2>
         <h6> Designer | Developer | Engineer</h6>
-        </section>
     </div>
+    </section>
+
     <script>
-        const colors=['blue','green','purple','yellow','orange']
+        const colors=['purple','blue','green','yellow','orange'];
 
         function createSquare(){
             const section = document.querySelector('section');
             const square = document.createElement('span');
 
-            var size = Math.random() * 15;
+            var size = Math.random() * 10;
 
             square.style.width = size+"px";
             square.style.height = size+"px";
 
             
-            square.style.top = Math.random() * (0.48*innerHeight) + 'px';
+            square.style.top = Math.random() * 0.55*innerHeight + 'px';
             square.style.left = Math.random() * innerWidth + 'px';
 
             const bg = colors[Math.floor(Math.random() * colors.length)];
@@ -47,8 +49,7 @@
                 square.remove()
             },5000);
         }
-
-        setInterval(createSquare,150);
+        setInterval(createSquare,25);
     </script>
 </body>
 </html>

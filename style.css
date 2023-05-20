@@ -1,27 +1,42 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
+/* body{
     overflow: hidden;
     background-image: url(./assets/background.webp);
     background-size: cover;
-}
+} */
 
-.favicon{
-    border-radius: 100%;
-    border:  5px solid teal;
-} 
+.header{
+    height: 60vh;
+    background: linear-gradient(90deg, rgba(78,9,110,1) 0%, rgba(3,3,85,1) 46%, rgba(0,66,20,1) 100%);
+}
 
 .nav{
     position: sticky;
-    justify-content: space-evenly;
-    background-color: teal;
-    align-items: center;
+    background-color: rgba(221, 221, 221, 0.08);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
     overflow: hidden;
+}
+
+.nav a{
+    padding: 1rem 2rem;
+}
+
+.routes{
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.25rem;
 }
 
 .about{
@@ -40,45 +55,33 @@ body{
     box-shadow: 10px 10px 2px 1px rgba(0, 255, 221, 0.2);
 }
 
-.routes{
-    float: left;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    font-size: 18px;
-}
-
 .content{
-    height: 55vh;
-    background: linear-gradient(90deg, rgba(78,9,110,1) 0%, rgba(3,3,85,1) 46%, rgba(0,66,20,1) 100%);
-    padding-bottom: 50px;
+    display: flex;
+    padding: 7rem 1rem 4rem 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .content h1{
-    text-align: center;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans' ;
     font-weight: 700;
-    padding: 40px 0px 10px 0px;
-    font-size: 48px;
-    background: -webkit-linear-gradient(45deg, rgb(198, 116, 236) 30%, rgb(90, 187, 216) 40%, rgb(127, 238, 160) 60%);
+    font-size: 3rem; 
+    background: -webkit-linear-gradient(45deg, deepskyblue 10%, skyblue 20%, lightseagreen 40%, mediumspringgreen 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .content h2{
     color:aqua;
-    text-align: center;
     font-weight: 500;
     padding: 10px 0px 10px 0px;
-    font-size: 36px;
+    font-size: 2.5rem;
 }
 
 .content h6{
-    color: mediumspringgreen;
-    text-align: center;
+    /* color: mediumspringgreen; */
+    color: white;
     font-weight: 300;
     padding: 10px 0px 10px 0px;
     font-size: 25px;
@@ -92,7 +95,7 @@ body{
 
 .home_icon{
     padding: 10px;
-    scale: 1.5;
+    scale: 1;
     background: -webkit-linear-gradient(135deg, rgb(127, 238, 160) 20%, rgb(111, 240, 197) 40%,   rgb(126, 220, 243) 50%, rgb(195, 161, 235) 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

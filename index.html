@@ -9,47 +9,21 @@
     <title>Jemma Mariya George</title>
 </head>
 <body>
-    <div class="nav">
-        <ul>
-            <a href="/" class="routes"><li>Home</li></a>
-            <a href="/about.html" class="routes"><li>About</li></a>
-        </ul>
-    </div>
-
-    <section>
-    <div class="content">
-        <h1>Hi There!</h1>
-        <h2>I'm Jemma Mariya George</h2>
-        <h6> Designer | Developer | Engineer</h6>
-    </div>
-    </section>
-
-    <script>
-        const colors=['purple','blue','green','yellow','orange','silver','gold'];
-
-        function createSquare(){
-            const section = document.querySelector('section');
-            const square = document.createElement('span');
-
-            var size = Math.random() * 10;
-
-            square.style.width = size+"px";
-            square.style.height = size+"px";
-
-            
-            square.style.top = Math.random() * 0.6*innerHeight + 'px';
-            square.style.left = Math.random() * innerWidth + 'px';
-
-            const bg = colors[Math.floor(Math.random() * colors.length)];
-            square.style.background=bg;
-            
-            section.appendChild(square);
-
-            setTimeout(() =>{
-                square.remove()
-            },5000);
-        }
-        setInterval(createSquare,30);
-    </script>
+    <div class="header">
+        <div class="nav">
+            <ul>
+                <a href="/" class="routes"><li>Home</li></a>
+                <a href="/about.html" class="routes"><li>About</li></a>
+            </ul>
+        </div>
+        <section>
+        <div class="content">
+            <h1>Hello There!</h1>
+            <h2>I'm Jemma Mariya George</h2>
+            <h6> Designer | Developer | Engineer</h6>
+        </div>
+        </section>
+    </div>  
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
